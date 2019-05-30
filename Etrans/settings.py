@@ -81,14 +81,22 @@ WSGI_APPLICATION = 'Etrans.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',  # 或者使用 mysql.connector.django
+#         'NAME': 'etrans',
+#         'USER': 'etrans',
+#         'PASSWORD': 'etrans',
+#         'HOST':'10.45.15.205',
+#         'PORT':'3306',
+#     }
+# }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',  # 或者使用 mysql.connector.django
-        'NAME': 'etrans',
-        'USER': 'etrans',
-        'PASSWORD': 'etrans',
-        'HOST':'10.45.15.205',
-        'PORT':'3306',
+        'default': {
+            'ENGINE': 'django.db.backends.oracle',
+            'NAME': '10.45.15.205:1521/orcl',
+            'USER': 'etrans',
+            'PASSWORD': 'etrans',
     }
 }
 
