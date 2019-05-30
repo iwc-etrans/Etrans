@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'Etrans.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  # 或者使用 mysql.connector.django
+        'ENGINE': 'mysql.connector.django',  # 或者使用 mysql.connector.django
         'NAME': 'etrans',
         'USER': 'etrans',
         'PASSWORD': 'etrans',
