@@ -11,4 +11,4 @@ def hello(request):
 
 
 def index(request):
-    return render(request, "eBaseManage.html")
+    return render(request, "index.html")
