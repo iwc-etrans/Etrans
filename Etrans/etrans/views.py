@@ -7,7 +7,7 @@ from django.http import HttpResponse
 
 
 def hello(request):
-    return HttpResponse("Hello world ! ")
+    #return HttpResponse("Hello world ! ")
     # context = {}
     # context['hello'] = 'Hello World!'
-    # return render(request, 'hello.html', context)
+     return render(request, "eBaseManage.html")
