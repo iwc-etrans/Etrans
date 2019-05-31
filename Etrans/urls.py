@@ -18,6 +18,7 @@ from django.urls import path
 from .etrans import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path(r'admin/', admin.site.urls),
     path('hello/', views.hello),
+    path('', views.index),
 ]

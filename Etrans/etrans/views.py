@@ -11,3 +11,10 @@ def hello(request):
     # context = {}
     # context['hello'] = 'Hello World!'
      return render(request, "eBaseManage.html")
+
+
+def index(request):
+    #return HttpResponse("Hello world ! ")
+    # context = {}
+    # context['hello'] = 'Hello World!'
+     return render(request, "eBaseManage.html")
